@@ -1,0 +1,89 @@
+body { 
+   background-image: url(../img/fondo.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   font-family: 'Lato', sans-serif;
+}
+
+p,h1,h2,h3,h4, li {
+    font-family: 'Lato', sans-serif;
+    color: antiquewhite !important; 
+    font-size: large;
+        }
+
+h1,h2,h3,h4 {
+    font-weight: bold;
+    color: antiquewhite;
+}
+
+.flex-section {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.rosado {
+    background-color: #ea899e;
+}
+
+.fotomia img{
+    width: 40%;
+    object-fit: contain;
+
+    }
+
+.aboutme, .experiencia, .estudios, .portafolio {
+    display: flex;
+    background-color: #ea899e;
+    text-align: center;
+    margin: 5%;    
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.sobremi {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-count: 2;
+}
+
+.descripcion, .hobbies {
+    flex: 1 0 50%
+}
+
+.grilla {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.experiencia, .estudios, .portafolio {
+    flex-direction: column;
+    text-align: left;
+}
+
+.experiencia h2, .estudios h2, .portafolio h2 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.hobbies i{
+    width: 50px;
+}
+
+.contacto, li{
+       text-align: left;
+       font-family: 'Lato', sans-serif;
+}
+
+footer {
+    clear: both;
+    background-color: #ea899e;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Rubik', sans-serif;
+    color: antiquewhite;
+    margin-top: 50px;
+    font-size: 20px;
+}
